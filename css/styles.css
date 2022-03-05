@@ -3,7 +3,7 @@ html body {
 }
 
 .navbar-brand {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 .nav-item {
@@ -16,7 +16,7 @@ html body {
 }
 
 header {
-  font-family: 'Montserrat', serif;
+  font-family: 'Roboto Slab', serif;
   margin: 50px 50px;
 }
 
@@ -45,7 +45,7 @@ h1 span {
 }
 
 footer {
-  font-family: 'Montserrat', serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 section {
@@ -53,7 +53,7 @@ section {
 }
 
 body, p{
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 section p {
