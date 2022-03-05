@@ -15,8 +15,9 @@ html body {
   text-decoration: underline;
 }
 
-h1 {
+header {
   font-family: 'Montserrat', serif;
+  margin: 50px 50px;
 }
 
 h1 span {
@@ -24,13 +25,39 @@ h1 span {
   color: white;
 }
 
+.mark_1 {
+  background-color:blueviolet;
+  color: black;
+}
+
+.mark_2 {
+  background-color:brown;
+  color: black;
+}
+
 .cover_page {
   max-height: auto;
   max-width: 100%;
 }
 
-body {
+.spacing {
+  height: 100px;
+}
+
+footer {
+  font-family: 'Montserrat', serif;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+body, p{
   font-family: 'Playfair Display', sans-serif;
+}
+
+section p {
+  font-size: 2em;
 }
 
 #nav-link {
