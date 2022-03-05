@@ -1,0 +1,42 @@
+html body {
+  background-color: #EDE6D4;
+}
+
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+}
+
+.nav-item {
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-item:hover {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: 'Montserrat', serif;
+}
+
+h1 span {
+  background-color: black;
+  color: white;
+}
+
+.cover_page {
+  max-height: auto;
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Playfair Display', sans-serif;
+}
+
+#nav-link {
+  color: black;
+}
+
+#logo {
+  max-height: 1em;
+}
