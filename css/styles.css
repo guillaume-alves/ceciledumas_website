@@ -20,6 +20,10 @@ header {
   margin: 50px 50px;
 }
 
+body h1 {
+  font-size: 5em;
+}
+
 h1 span {
   background-color: black;
   color: white;
