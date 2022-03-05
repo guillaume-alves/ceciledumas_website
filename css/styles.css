@@ -20,7 +20,7 @@ header {
   margin: 50px 50px;
 }
 
-body h1 {
+.project_title {
   font-size: 5em;
 }
 
