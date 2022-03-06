@@ -48,11 +48,16 @@ h1 span {
   height: 100px;
 }
 
+section {
+  margin-bottom: 50px;
+}
+
 footer {
   font-family: 'Roboto Slab', serif;
 }
 
-section {
+body hr {
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 
@@ -60,7 +65,7 @@ body, p{
   font-family: 'Roboto Slab', serif;
 }
 
-section p {
+article p, section p {
   font-size: 2em;
 }
 
