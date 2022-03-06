@@ -49,6 +49,11 @@ h1 span {
   max-width: 100%;
 }
 
+.profil_picture {
+  max-height: auto;
+  max-width: 140px;
+}
+
 .spacing {
   height: 100px;
 }
