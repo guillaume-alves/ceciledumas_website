@@ -1,4 +1,4 @@
-html body {
+html body, body .card {
   background-color: #EDE6D4;
 }
 
@@ -37,6 +37,11 @@ h1 span {
 .mark_2 {
   background-color:brown;
   color: black;
+}
+
+.mark_3 {
+  background-color: #2a574f;
+  color: white;
 }
 
 .cover_page {
