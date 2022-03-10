@@ -1,32 +1,59 @@
 html body, body .card {
-  background-color: #EDE6D4;
+  background-color: #F1C7D4;
 }
 
 .navbar-brand {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Inknut Antiqua', serif;
 }
 
 .nav-item {
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav-item:hover {
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-decoration: underline;
 }
 
 header {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Inknut Antiqua', serif;
   margin: 50px 50px;
 }
 
-.project_title {
-  font-size: 5em;
+.project_description {
+  margin-top: 50px;
+  font-size: 1.5em;
+}
+
+.project_cast {
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  
 }
 
 h1 span {
-  background-color: black;
-  color: white;
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 1em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.sidebar {
+  margin-bottom: 100px;
+}
+
+.sidebar_title {
+  font-weight: bold;
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 0.9em;
+}
+
+.sidebar_item {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7em;
 }
 
 .mark_1 {
@@ -44,9 +71,10 @@ h1 span {
   color: white;
 }
 
-.cover_page {
+.project_img {
+  margin-top: 20px;
   max-height: auto;
-  max-width: 100%;
+  max-width: 80%;
 }
 
 .profil_picture {
@@ -58,12 +86,25 @@ h1 span {
   height: 100px;
 }
 
+nav {
+  margin-bottom: 100px;
+}
+
+h1 a, h1 a:visited, h1 a:link, h1 a:hover, h1 a:active{
+  color: black;
+  text-decoration: none;
+}
+
+.project_subtitle {
+  font-size: small;
+}
+
 section {
   margin-bottom: 50px;
 }
 
 footer {
-  font-family: 'Roboto Slab', serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body hr {
@@ -72,7 +113,15 @@ body hr {
 }
 
 body, p{
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Inknut Antiqua', serif;
+}
+
+body .bio_title {
+  font-family: 'Inknut Antiqua', serif;
+}
+
+body .bio_text {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 article p, section p {
