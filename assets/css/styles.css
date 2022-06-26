@@ -133,3 +133,11 @@ article p, section p {
   position: fixed;
   z-index: 1;
 }
+
+#sidebar_films_list {
+  display: none;
+}
+
+#arrow_up {
+  display: none;
+}
