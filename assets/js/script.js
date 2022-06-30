@@ -1,23 +1,22 @@
-function loadNavbar() {
+function loadNavbarAndSidebar() {
     $( "#navbar" ).load( "navbar.html" );
+    $("#sidebar").load("sidebar.html");
 }
 
-function displayHide() {
-    let list = document.getElementById("sidebar_films_list");
-    let arrow_down = document.getElementById("arrow_down");
-    let arrow_up = document.getElementById("arrow_up");
+function displayHide(clickedList, arrowUpList, arrowDownList) {
+    let list = document.getElementById(clickedList);
+    let arrowDown = document.getElementById(arrowDownList);
+    let arrowUp = document.getElementById(arrowUpList);
     if (list.style.display === "none") {
         list.style.display = "block";
-        arrow_down.style.display = "none";
-        arrow_up.style.display = "inline";
-
+        arrowDown.style.display = "none";
+        arrowUp.style.display = "inline";
     } else {
         list.style.display = "none";
-        arrow_down.style.display = "inline";
-        arrow_up.style.display = "none";
+        arrowDown.style.display = "inline";
+        arrowUp.style.display = "none";
     }
 }
-
 
 function PopupImage(img) {
 	w=open("",'image','weigth=toolbar=no,scrollbars=no,resizable=yes, width=510, height=210');	

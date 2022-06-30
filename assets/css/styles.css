@@ -1,7 +1,6 @@
-
 .navbar-brand {
   font-family: 'Inknut Antiqua', serif;
-  position:fixed
+  position: fixed
 }
 
 .nav-item {
@@ -18,53 +17,49 @@ header {
   margin: 50px 50px;
 }
 
-body{
-  cursor:crosshair
+body {
+  cursor: crosshair
 }
 
-a:link{
-  cursor:n-resize;
+a:link {
+  cursor: n-resize;
 }
 
-.project_description {
+.project-description {
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 50px;
   font-size: 0.8em;
 }
 
-/*créé un décalage de x pixels en bas*/
+/* créé un décalage de x pixels en bas
 .rel {
   position: relative;
-  top:600px;
+  bottom: 600px;
 }
 
 .rel1 {
   position: relative;
-}
-
+} */
 
 .rel2 {
   position: relative;
-  top:200px;
+  top: 200px;
 }
 
 .rel3 {
   position: relative;
-  top:200px;
+  top: 200px;
 }
 
 .rel4 {
   position: relative;
-  top:150px;
+  top: 150px;
 }
 
-
-
-.project_cast {
+.project-cast {
   margin-top: 50px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.8em;
-  
 }
 
 h1 span {
@@ -86,30 +81,34 @@ ul {
   margin-bottom: 100px;
 }
 
-.sidebar_title {
+.sidebar-title {
   font-weight: bold;
   font-family: 'Inknut Antiqua', serif;
   font-size: 0.7em;
 }
 
-.sidebar_item {
-  font-family: Arial,Helvetica, sans-serif;
+.sidebar-item {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 0.7em;
 }
 
-.project_subtitle {
+.project-subtitle {
   margin-top: 50px;
   font-size: 0.6em;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.project_img {
-  margin-top: 20px;
-  max-height: auto;
-  max-width: 80%;
+.project-img-container {
+  z-index: -1;
 }
 
-.profil_picture {
+.project-img {
+  margin-top: 200px;
+  max-height: 400px;
+  max-width: auto;
+}
+
+.profil-picture {
   max-height: auto;
   max-width: 140px;
 }
@@ -122,7 +121,11 @@ nav {
   margin-bottom: 100px;
 }
 
-h1 a, h1 a:visited, h1 a:link, h1 a:hover, h1 a:active{
+h1 a,
+h1 a:visited,
+h1 a:link,
+h1 a:hover,
+h1 a:active {
   color: black;
   text-decoration: none;
 }
@@ -140,19 +143,21 @@ body hr {
   margin-bottom: 100px;
 }
 
-body, p{
+body,
+p {
   font-family: 'Inknut Antiqua', serif;
 }
 
-body .bio_title {
+body .bio-title {
   font-family: 'Inknut Antiqua', serif;
 }
 
-body .bio_text {
+body .bio-text {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-article p, section p {
+article p,
+section p {
   font-size: 2em;
 }
 
@@ -164,20 +169,24 @@ article p, section p {
   max-height: 1em;
 }
 
-.project_img_bg {
+.text-project {
+  position: fixed;
   z-index: 1;
 }
 
-.text-project {
-  position: fixed;
-  z-index: -1;
-}
 
-
-#sidebar_films_list {
+#sidebar-films-list {
   display: none;
 }
 
-#arrow_up {
+#sidebar-other-works-list {
+  display: none;
+}
+
+#arrow-up-films {
+  display: none;
+}
+
+#arrow-up-other {
   display: none;
 }

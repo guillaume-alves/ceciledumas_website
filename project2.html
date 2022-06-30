@@ -37,41 +37,15 @@
     <!-- Section 1 -->
     <section class="text-project container-fluid">
       <div class="row justify-content-center">
-        <div class="sidebar col-sm-3">
-          <ul id="show_sidebar_films" class="sidebar_title" onclick="displayHide()"
-            films>Films <span id="arrow_down">&#8964;</span><span id="arrow_up">&#8963;</span>
-            <div id="sidebar_films_list">  -->
-            <li class="sidebar_item">Post Mortem Beach</li>
-            <li class="sidebar_item">Rita Past Away</li>
-            <li class="sidebar_item">Harold</li>
-            <li class="sidebar_item">La Rafale</li>
-            <li class="sidebar_item">Diane</li>
-            <li class="sidebar_item">Vacance</li>
-            </div> 
-          </ul>
-          
-          <ul id="show_sidebar_other works" class="sidebar_title" onclick="displayHide()"
-          other works>Other works<span id="arrow down"> &#8964; <span id="arrow_up"> &#8963;</span>
-          <div id="sidebar_other_works_list"> 
-            <li class="sidebar_item">Run from me darling</li>
-            <li class="sidebar_item">
-              Pour naviguer en environnement incertain,<br> mieux vaut savoir se
-              détouner du scénario </li>
-            <li class="sidebar_item">Things we forgot on vacation</li>
-            <li class="sidebar_item">La grande magie au ralenti</li>
-            </ul>
-            
-            <ul> 
-              <li class="sidebar_item"> <b> Films de commande </b> </li> 
-              <li class="sidebar_item"> <b> Bio + contact </b></li>
+        <!-- Sidebar-->
+        <div id="sidebar"></div>
 
-        </div>
         <div class="col-9">
           <h1 class="text-center"><span>Diane</span></h1>
-          <p class="project_subtitle text-center">
+          <p class="project-subtitle text-center">
             <span>2021<br />HD . 8min</span>
           </p>
-          <p class="project_description text-center">
+          <p class="project-description text-center">
             <span>
               Diane est une amie,<br />
               Diane danse dans un club de striptease.<br />
@@ -80,17 +54,12 @@
               </span
             >
           </p>
-          <p class="project_cast text-center">
+          <p class="project-cast text-center">
             <span>
               réalisation, image, montage <strong>Cécile Dumas</strong><br />
               avec <strong> Diane Réa </strong> <br />
             </span>
           </p>
-          <!-- <p class="project_cast text-center">
-            <img class="project_img" src="assets/img/post_mortem_beach_1.png" />
-            <img class="project_img" src="assets/img/post_mortem_beach_2.png" />
-            <img class="project_img" src="assets/img/post_mortem_beach_3.png" />
-          </p> -->
           </div>
 
       </div>
@@ -151,10 +120,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script
-      type="text/javascript"
-      src="assets/js/script.js"
-      onload="loadNavbar()"
-    ></script>
+    <script type="text/javascript" src="assets/js/script.js" onload="loadNavbarAndSidebar()"></script>
+</body>
   </body>
 </html>
