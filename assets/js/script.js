@@ -1,9 +1,9 @@
 function loadNavbar() {
-    $( "#navbar" ).load( "navbar.html" );
+    $( "#navbar" ).load("/layout/navbar.html" );
 }
 
 function loadSidebar() {
-    $("#sidebar").load("sidebar.html");
+    $("#sidebar").load("/layout/sidebar.html");
 }
 
 function displayHide(clickedList, arrowUpList, arrowDownList) {
