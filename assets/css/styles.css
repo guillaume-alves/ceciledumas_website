@@ -6,6 +6,21 @@ nav {
 .nav-brand {
   font-family: 'Inknut Antiqua', serif;
   margin-left: 1em;
+  margin-right: 1em;
+}
+
+.nav-link-custom {
+  display: inline-block;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+#nav-link {
+  color: black;
+}
+
+.nav-link-logo {
+  max-height: 0.9em;
 }
 
 .nav-brand 
@@ -94,6 +109,7 @@ ul {
 .sidebar-title {
   font-family: 'Inknut Antiqua', serif;
   font-size: 0.75em;
+  cursor: pointer;
 }
 
 .sidebar-item {
@@ -172,14 +188,6 @@ body .bio-text {
 article p,
 section p {
   font-size: 2em;
-}
-
-#nav-link {
-  color: black;
-}
-
-#logo {
-  max-height: 1em;
 }
 
 .text-project {
