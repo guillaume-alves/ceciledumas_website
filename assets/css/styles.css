@@ -137,9 +137,12 @@ ul {
   top:22rem;
 }
 
+.project-img-item {
+  margin-top: 200px;
+}
+
 .project-img {
   margin-top: 200px;
-  max-height: 400px;
   max-width: auto;
 }
 
@@ -185,6 +188,17 @@ body .bio-text {
 article p,
 section p {
   font-size: 2em;
+}
+
+body {
+  overflow: hidden;
+}
+
+main {
+  position: absolute;
+  top: 40px;
+  bottom: 0;
+  overflow-y: scroll;
 }
 
 .text-project {

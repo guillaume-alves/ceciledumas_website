@@ -7,103 +7,110 @@
   <title>Cécile Dumas - Artiste, Réalisatrice</title>
   <link href="/assets/css/styles.css" rel="stylesheet" />
   <!-- Bootstrap CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-   <!-- jQuery CDN -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap" rel="stylesheet" />
 </head>
 
 <body>
+
   <!-- navbar -->
   <div id="navbar"></div>
 
-  <!-- title and description section-->
-  <section class="text-project container-fluid">
-    <div class="row justify-content-center">
-      <!-- sidebar -->
-      <div id="sidebar" class="col-sm-3"></div>
+  <main class="container-fluid">
 
-      <div class="col-9">
-        <h1 class="text-center"><span>Post Mortem Beach</span></h1>
-        <p class="project-subtitle text-center">
-          <span>2017<br />HD . 9minsec</span>
-        </p>
-        <p class="project-description text-center">
-          <span>
-            A Post mortem Beach,<br />
-            une réalisatrice dirige un comédien.<br />
-            Ce dernier s’éxécute sans un mot.<br />
-            On parle d’amour, de mort,<br />
-            de la vie comme un film.<br />
-            On termine une histoire.</span>
-        </p>
-        <p class="project-cast text-center">
-          <span>
-            scénario & réalisation <strong>Cécile Dumas</strong><br />
-            avec <strong>Claire Meillier, Jérémie Vansimspen</strong><br />
-            image <strong>Marcial Hériteau-Puentes</strong><br />
-            son <strong>Julie Massacrier</strong><br />
-            montage <strong>Cécile Dumas, Juliane Hendershot</strong>
-          </span>
-        </p>
-      </div>
-    </div>
-  </section>
+    <!-- title and description section-->
+    <section class="text-project container">
+      <div class="row justify-content-center">
+        <!-- sidebar -->
+        <div id="sidebar" class="col-sm-3"></div>
 
-  <!-- images section -->
-  <section class="project-img-container container-fluid">
-    <!-- c'est mieux de définir la taille de tes images dans le fichier CSS -->
-    <!-- n'utilise pas la propriété "position relative" du CSS pour créer des écarts entre tes images. Pour cela il exsite la propriété margin-->
-    <!-- la propriété "position relative" sert uniquement pour créer des décalges quand deux "row" englobant chacune une image doivent se chevaucher -->
-    <div class="project-img">
-      <div class="row">
-        <div class="col-sm-3"></div>
-        <!-- la classe img-fluid ci-dessous permet de rendre l'image responsive automatiquement-->
-        <img class="col-sm-7" class="img-fluid" src="/assets/img/PMB/PMB1.jpg" />
+        <div class="col-9">
+          <h1 class="text-center"><span>Post Mortem Beach</span></h1>
+          <p class="project-subtitle text-center">
+            <span>2017<br />HD . 9minsec</span>
+          </p>
+          <p class="project-description text-center">
+            <span>
+              A Post mortem Beach,<br />
+              une réalisatrice dirige un comédien.<br />
+              Ce dernier s’éxécute sans un mot.<br />
+              On parle d’amour, de mort,<br />
+              de la vie comme un film.<br />
+              On termine une histoire.</span>
+          </p>
+          <p class="project-cast text-center">
+            <span>
+              scénario & réalisation <strong>Cécile Dumas</strong><br />
+              avec <strong>Claire Meillier, Jérémie Vansimspen</strong><br />
+              image <strong>Marcial Hériteau-Puentes</strong><br />
+              son <strong>Julie Massacrier</strong><br />
+              montage <strong>Cécile Dumas, Juliane Hendershot</strong>
+            </span>
+          </p>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="project-img">
-      <div class="row">
-        <img class="col-sm-7" class="img-fluid" src="/assets/img/PMB/PMB2.jpg" />
-        <div class="col-sm-1"></div>
+    <!-- images section -->
+    <section class="project-img-container container-fluid">
+      <!-- c'est mieux de définir la taille de tes images dans le fichier CSS -->
+      <!-- n'utilise pas la propriété "position relative" du CSS pour créer des écarts entre tes images. Pour cela il exsite la propriété margin-->
+      <!-- la propriété "position relative" sert uniquement pour créer des décalges quand deux "row" englobant chacune une image doivent se chevaucher -->
+      <div class="project-img-item">
+        <div class="row">
+          <div class="col-sm"></div>
+          <div class="col-sm-7"><img class="img-fluid project-img" src="/assets/img/PMB/PMB1.jpg" /></div>
+        </div>
       </div>
-    </div>
+      <!-- la classe img-fluid ci-dessous permet de rendre l'image responsive automatiquement -->
 
-    <div class="project-img">
-      <div class="row">
-        <div class="col"></div>
-        <img class="col-sm-8" class="img-fluid" src="/assets/img/PMB/PMB3.jpg" />
-        <div class="col-sm-3"></div>
+      <div class="project-img-item">
+        <div class="row">
+          <div class="col-sm-7"><img class="img-fluid project-img" src="/assets/img/PMB/PMB2.jpg" /></div>
+          <div class="col-sm-1"></div>
+        </div>
       </div>
-    </div>
 
-    <div class="project-img">
-      <div class="row">
-        <div class="col-sm-2"></div>
-        <img class="col-sm-7" class="img-fluid" src="/assets/img/PMB/PMB5.jpg" />
-        <div class="col"></div>
+      <div class="project-img-item">
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-sm-8"><img class="img-fluid project-img" src="/assets/img/PMB/PMB3.jpg" /></div>
+          <div class="col-sm-3"></div>
+        </div>
       </div>
-    </div>
 
-    <div class="project-img">
-      <div class="row">
-        <div class="col"></div>
-        <img class="col-sm-7" class="img-fluid" src="/assets/img/PMB/PMB6.jpg" />
-        <div class="col-sm-1"></div>
+      <div class="project-img-item">
+        <div class="row">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-7"><img class="img-fluid project-img" src="/assets/img/PMB/PMB5.jpg" /></div>
+          <div class="col"></div>
+        </div>
       </div>
-    </div>
 
-    <div class="project-img">
-      <div class="row">
-        <div class="col-sm-2"></div>
-        <img class="col-sm-7" class="img-fluid" src="/assets/img/PMB/PMB8.jpg" />
-        <div class="col-sm-1"></div>
+      <div class="project-img-item">
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-sm-7"><img class="img-fluid project-img" src="/assets/img/PMB/PMB6.jpg" /></div>
+          <div class="col-sm-1"></div>
+        </div>
       </div>
-    </div>
-  </section>
+
+      <div class="project-img">
+        <div class="row">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-7"><img class="img-fluid project-img" src="/assets/img/PMB/PMB8.jpg" /></div>
+          <div class="col-sm-1"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
 
   <!-- footer -->
   <footer class="container-fluid">
@@ -113,7 +120,9 @@
   </footer>
 
   <!-- <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script> -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
   <script type="text/javascript" src="/assets/js/script.js" onload="loadNavbar(); loadSidebar()"></script>
 </body>
 
