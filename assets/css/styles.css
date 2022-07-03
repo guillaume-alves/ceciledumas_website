@@ -129,6 +129,7 @@ ul {
 
 .sidebar-item a:hover {
   background-color: lightpink;
+  font-size: 2em;
 }
 
 .project-subtitle {
@@ -141,6 +142,7 @@ ul {
   z-index: 0;
   position: absolute;
   top:30rem;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .project-img-item {
@@ -189,6 +191,18 @@ body .bio-text {
 article p,
 section p {
   font-size: 2em;
+}
+
+@media (max-width: 576px) {
+  #sidebar {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+.dropdown-responsive {
+  display: none;
+}
 }
 
 section {
